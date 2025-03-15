@@ -106,7 +106,8 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #ccc;
+  background-color: #333;
+  color: #fff;
 }
 
 .message {
@@ -116,4 +117,81 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .again {
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.4rem;
+  }
+
+  .guess {
+    width: 12rem;
+    font-size: 2rem;
+  }
+
+  .number {
+    width: 8rem;
+    height: 8rem;
+    font-size: 4rem;
+  }
+
+  .message {
+    font-size: 1rem;
+  }
+  .label-score {
+    font-size: 1rem;
+  }
+
+  .label-highscore {
+    font-size: 1rem;
+  }
+  .between {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 340px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+  .again {
+    width: 11rem;
+    height: 2rem;
+    font-size: 1.4rem;
+  }
+
+  .guess {
+    width: 12rem;
+    font-size: 2rem;
+  }
+
+  .number {
+    width: 8rem;
+    height: 8rem;
+    font-size: 4rem;
+  }
+
+  .message {
+    font-size: 1rem;
+  }
+  .label-score {
+    font-size: 1rem;
+  }
+
+  .label-highscore {
+    font-size: 1rem;
+  }
+  .between {
+    font-size: 0.8rem;
+  }
+  .check {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+  }
 }
